@@ -31,7 +31,7 @@ for file in "$TMP_DIR/.cursor/commands"/ct-*.md; do
 done
 
 # Copy rules (ct-*)
-for file in "$TMP_DIR/.cursor/rules"/ct-*.md; do
+for file in "$TMP_DIR/.cursor/rules"/ct-*.mdc; do
   filename="$(basename "$file")"
   target=".cursor/rules/$filename"
 

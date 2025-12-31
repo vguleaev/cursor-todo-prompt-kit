@@ -2,7 +2,7 @@
 
 This is a simple **Cursor Prompt Library** for managing tasks in a single `TODO.md` file.
 
-`TODO.md` contains collection of "Jira-like" task items for your AI Agents in Cursor.
+`TODO.md` contains collection of "Jira-like" task items for AI Agents in Cursor.
 
 This kit adds a small set of Cursor commands and rules that allow you to manage a "TODO.md" file.
 
@@ -85,15 +85,15 @@ https://github.com/vguleaev/cursor-todo-prompt-kit/blob/main/templates/TODO.md
 
 ## Files and Responsibilities
 
-### `TODO.md`
+- `TODO.md`
 
-The single source of truth for work.
+The single source of truth for all work.
 
 - All tasks live here
 - Tasks have unique IDs
 - Tasks progress is tracked in "Progress Tracker" section
 
-### `.cursor/commands/`
+- `.cursor/commands/`
 
 Explicit, user invoked actions such as:
 
@@ -102,6 +102,6 @@ Explicit, user invoked actions such as:
 - `/ct-check-task-id` - Checking task status by its ID in `TODO.md` file
 - `/ct-start-task-id` - Starting working on a task by its ID
 
-### `.cursor/rules/`
+- `.cursor/rules/`
 
 Always-on rules how to work with `TODO.md` file.
