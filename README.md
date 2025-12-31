@@ -85,23 +85,17 @@ https://github.com/vguleaev/cursor-todo-prompt-kit/blob/main/templates/TODO.md
 
 ## Files and Responsibilities
 
-- `TODO.md`
-
-The single source of truth for all work.
+`TODO.md` is the single source of truth for all work.
 
 - All tasks live here
 - Tasks have unique IDs
-- Tasks progress is tracked in "Progress Tracker" section
+- Tasks progress is tracked in "Progress Tracker" section of the `TODO.md` file
 
-- `.cursor/commands/`
-
-Explicit, user invoked actions such as:
+`.cursor/commands/` are explicit, user invoked actions such as:
 
 - `/ct-init-todo` - Initializing `TODO.md` file
 - `/ct-add-task` - Adding new task to `TODO.md` file
 - `/ct-check-task-id` - Checking task status by its ID in `TODO.md` file
 - `/ct-start-task-id` - Starting working on a task by its ID
 
-- `.cursor/rules/`
-
-Always-on rules how to work with `TODO.md` file.
+`.cursor/rules/` are always-on rules how to work with `TODO.md` file.
