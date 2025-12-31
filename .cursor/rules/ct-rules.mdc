@@ -1,0 +1,11 @@
+---
+alwaysApply: true
+---
+
+## TODO.md and CT Rules
+
+When a file called `TODO.md` is present in the project root, you should follow these rules:
+
+- When you are asked to create or update `CT-<number>` task, you should use `TODO.md` file.
+- When you are asked about `CT-<number>` task, you should check `TODO.md` file for the task.
+- When you think `CT-<number>` task is completed, you should mark it as `✅ DONE` in `TODO.md` file.
