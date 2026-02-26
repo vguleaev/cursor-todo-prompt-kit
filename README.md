@@ -4,7 +4,7 @@ This is a simple **Cursor Prompt Library** for managing tasks in a single `TODO.
 
 `TODO.md` contains collection of "Jira-like" task items for AI Agents in Cursor.
 
-This kit adds a small set of Cursor commands and rules that allow you to manage a "TODO.md" file.
+This kit adds a small set of Cursor skills and rules that allow you to manage a "TODO.md" file.
 
 ## Core Idea
 
@@ -24,7 +24,7 @@ Having all tasks in a single file allows AI Agents to:
 
 The kit creates `.cursor` folder with two subfolders:
 
-- `commands` - contains Cursor commands
+- `skills` - contains Cursor skills
 - `rules` - contains Cursor rules
 
 ## Installation
@@ -57,7 +57,7 @@ Or you can ask Cursor to add a new task to `TODO.md` file:
 Add new task in TODO.md file to configure Tailwind CSS for frontend
 ```
 
-## Additional commands
+## Additional skills
 
 To add a new task to `TODO.md` file, run the following command in Cursor chat:
 
@@ -91,7 +91,7 @@ https://github.com/vguleaev/cursor-todo-prompt-kit/blob/main/templates/TODO.md
 - Tasks have unique IDs
 - Tasks progress is tracked in "Progress Tracker" section of the `TODO.md` file
 
-`.cursor/commands/` are explicit, user invoked actions such as:
+`.cursor/skills/` are explicit, user invoked actions such as:
 
 - `/ct-init-todo` - Initializing `TODO.md` file
 - `/ct-add-task` - Adding new task to `TODO.md` file

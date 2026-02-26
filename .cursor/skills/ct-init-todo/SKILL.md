@@ -1,3 +1,9 @@
+---
+name: ct-init-todo
+description: For the given feature, create a TODO.md file in the root of the project.
+disable-model-invocation: true
+---
+
 # ct-init-todo
 
 **For the given feature, create a `TODO.md` file in the root of the project.**

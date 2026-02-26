@@ -1,3 +1,9 @@
+---
+name: ct-add-task
+description: For the given task, add a new task to the TODO.md file.
+disable-model-invocation: true
+---
+
 # ct-add-task
 
 **For the given task, add a new task to the `TODO.md` file.**
